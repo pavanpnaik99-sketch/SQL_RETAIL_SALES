@@ -10,6 +10,7 @@ alter table retail_sales rename column  ï»¿transactions_id to transactions_id
 alter table retail_sales modify gender varchar(50),modify category varchar(50);
 alter table retail_sales modify price_per_unit float,modify cogs float,modify total_sale float;
 alter table retail_sales add  primary key (transactions_id);
+alter table retail_sales rename column quantiy to quantity;
 
 #type of data
 desc retail_sales;
@@ -27,7 +28,7 @@ WHERE
     OR sale_time IS NULL
     OR gender IS NULL
     OR category IS NULL
-    OR quantiy IS NULL
+    OR quantity IS NULL
     OR cogs IS NULL
     OR total_sale IS NULL;
  
@@ -50,7 +51,7 @@ WHERE
 SELECT *
 FROM retail_sales
 WHERE category = 'Clothing'
-  AND quantiy > 3
+  AND quantity > 3
   AND MONTH(sale_date) = 5
   AND YEAR(sale_date) = 2022;
 
