@@ -74,7 +74,7 @@ The dataset was cleaned and standardized before analysis:
 ## Tools & Technologies
 - MySQL
 - SQL (Advanced level)
-- 
+
 All SQL queries in this project were formatted using  
 [Redgate SQL Formatter](https://www.red-gate.com/website/sql-formatter/)
 
