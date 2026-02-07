@@ -76,5 +76,5 @@ The dataset was cleaned and standardized before analysis:
 - SQL (Advanced level)
 
 All SQL queries in this project were formatted using  
-- [SQLFormat](https://sqlformat.org/)
+- [SQLFormat](freeformatter.com/sql-formatter.html)
 
